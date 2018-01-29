@@ -1,2 +1,5 @@
-# filter-options
-Burp extension to filter OPTIONS request from proxy history
+# Filter Options
+
+Burp extension to filter OPTIONS request from proxy history. This works by adding a header "Content-Type: application/octet-stream" to OPTIONS responses. That mime-type is filtered by the
+default proxy history filter.
+
